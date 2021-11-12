@@ -1,5 +1,7 @@
 package br.com.springboot.curso_jdev_treinamento.model;
 
+
+// teste pra ver se o git ta indo... 
 import java.io.Serializable;
 
 import javax.persistence.Entity;
