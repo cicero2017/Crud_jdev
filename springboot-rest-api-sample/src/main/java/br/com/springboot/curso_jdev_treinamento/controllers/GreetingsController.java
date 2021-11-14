@@ -108,8 +108,7 @@ public class GreetingsController {
     	
     }
     
-      /* vai usar com find da ointerface, vai usar string pra achar... vai chamar o .save apos alterar algo...*/
-    
+         
     @GetMapping(value="buscaruserid")
     @ResponseBody
     public ResponseEntity<Usuario> buscaruserid(@RequestParam(name = "iduser")Long iduser){
@@ -119,8 +118,6 @@ public class GreetingsController {
     	return new ResponseEntity<Usuario>(usuario,HttpStatus.OK);	
     	
     }
-    
-    
     
     	
     }
